@@ -1,0 +1,15 @@
+[package]
+name = "lineify"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Turn a token-by-token stream into stable line events. Buffer until a newline arrives, then emit the whole line. Zero deps."
+authors = ["Mukunda Rao Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/lineify"
+homepage = "https://github.com/MukundaKatta/lineify"
+documentation = "https://docs.rs/lineify"
+readme = "README.md"
+keywords = ["stream", "lines", "buffer", "llm", "tail"]
+categories = ["text-processing"]
+exclude = [".github/*", "target/*"]
